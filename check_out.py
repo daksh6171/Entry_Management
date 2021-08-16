@@ -110,7 +110,7 @@ def check_out1(vmail):
                     # Message displayed in the e-mail
                     info = "Name: " + dis_name + "\nPhone No.: " + dis_mob + "\nCheck In time: " + cin_time + "\n" \
                         "Check Out time: " + cout_time + "\nHost Name: " + host_nm + "\nHost E-mail: " + host_ml + "\n" \
-                        "Host Mobile No.: " + host_mb + "\nAddress: Innovacer Office"
+                        "Host Mobile No.: " + host_mb + "\nAddress: XYZ Office"
 
                     # Sending e-mail to the visitor about the details of the meeting
                     server = smtplib.SMTP('smtp.gmail.com', 587)
